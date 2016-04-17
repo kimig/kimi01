@@ -1,0 +1,13 @@
+.btn-form-01 {
+  background-color: #eee;
+  padding: 5px 10px 5px;
+  border: 1px solid #999;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 100px;
+}
+.txt-form-01 {
+  margin-bottom: 20px;
+}
