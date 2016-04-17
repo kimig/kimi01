@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+<meta name="format-detection" content="telephone=no">
+<title>JQUARY | LESSON</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="/common/css/base.css" media="all">
+<link rel="stylesheet" href="/common/css/lesson.css" media="all">
+<script src="/common/js/jquery.js"></script>
+<script src="/common/js/common.js"></script>
+<script src="/common/js/lesson.js"></script>
+<!--[if lt IE 9]><script src="/common/js/html5shiv.min.js"></script><![endif]-->
+</head>
+<body id="gDef" class="lDef">
+<div class="wrapper">
+
+  <header class="header">
+    <div class="header-in">
+      <h1 class="header-logo"><a href="#"><img src="" alt=""></a></h1>
+      <nav class="nav-global">
+        <ul>
+          <li class="nav01"><a href="#">g01</a></li>
+          <li class="nav02"><a href="#">g02</a></li>
+          <li class="nav03"><a href="#">g03</a></li>
+          <li class="nav04"><a href="#">g04</a></li>
+          <li class="nav05"><a href="#">g05</a></li>
+        </ul>
+      </nav><!-- /nav-global -->
+    </div><!-- /header-in -->
+  </header>
+  
+  <div class="hero-cmn">
+    <h2 class="title"><img src="" alt=""></h2>
+  </div><!-- /hero-cmn -->
+  
+  <div class="contents">
+  
+    <article class="contents-main">
+    
+      <section class="sec-cmn-01">
+        <h2 class="ttl-cmn-01">アコーディオン練習</h2>
+        <dl class="list-cmn-01">
+          <dt>テキスト01</dt>
+          <dd>テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01<br>
+          テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01テキスト01</dd>
+          <dt>テキスト0２</dt>
+          <dd>テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02<br>
+          テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02テキスト02</dd>
+          <dt>テキスト03</dt>
+          <dd>テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03<br>
+          テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03テキスト03</dd>
+        </dl>
+      </section><!-- /sec-cmn-01 -->
+
+      <section class="sec-cmn-01">
+        <h2 class="ttl-cmn-01">画像切り替え</h2>
+        <button id="btn-phot-change" class="btn-phot-change blue">画像変更</button>
+        <figure class="fig-change-phot">
+          <img src="img/img_lesson_01.jpg" alt="画像切り替え">
+        </figure>
+
+      </section><!-- /sec-cmn-01 -->
+
+
+      <section class="sec-cmn-01">
+        <h2 class="ttl-cmn-01">画像切り替え・a利用</h2>
+        <button id="btn-phot-change-02" class="btn-phot-change red"><a href="#">画像変更</a></button>
+        <figure class="fig-change-phot-02">
+          <img src="img/img_lesson_03.jpg" alt="画像切り替え">
+          <figcaption>aタグ使用</figcaption>
+        </figure>
+      </section><!-- /sec-cmn-01 -->
+
+      <section class="sec-cmn-01">
+        <h2 class="ttl-cmn-01">画像切り替え2</h2>
+        <ul class="list-cmn-02">
+          <li><a href="/img/img_lesson_01.jpg">画像01</a></li>
+          <li><a href="/img/img_lesson_02.jpg">画像02</a></li>
+          <li><a href="/img/img_lesson_03.jpg">画像03</a></li>
+          <li><a href="/img/img_lesson_04.jpg">画像04</a></li>
+        </ul>
+        <figure class="fig-change-phot-03">
+          <img src="img/img_lesson_01.jpg" alt="画像切り替え2">
+        </figure>
+      </section><!-- /sec-cmn-01 -->
+
+      <section class="sec-cmn-01">
+        <h2 class="ttl-cmn-01">画像切り替え MouseOn</h2>
+        <figure class="fig-on-mouse"><img src="/img/img_lesson_05.jpg" alt="画像：オンマウス"></figure>
+      </section><!-- /sec-cmn-01 -->
+
+      <section class="sec-cmn-01">
+        <h2 class="ttl-cmn-01">MouseMove</h2>
+        <figure class="fig-mouse-move"><img src="/img/img_lesson_06.jpg" alt="画像：マウスムーブ">
+          <figcaption></figcaption>
+        </figure>
+      </section><!-- /sec-cmn-01 -->
+
+      <section class="sec-cmn-01">
+        <h2 class="ttl-cmn-01">li要素の追加</h2>
+        <button id="btn-phot-change-03" class="btn-phot-change green">li要素の追加</button>
+        <button id="btn-phot-change-04" class="btn-phot-change orenge">li要素の追加ボタン停止</button>
+        <ul class="list-add-li">
+          <li><a href="img/img_lesson_01.jpg" alt="li要素の追加<">画像01</a></li>
+          <li><a href="img/img_lesson_02.jpg" alt="li要素の追加<">画像02</a></li>
+          <li><a href="img/img_lesson_03.jpg" alt="li要素の追加<">画像03</a></li>
+        </ul>
+        <figure class="fig-add-li">
+          <img src="img/img_lesson_01.jpg" align="li要素の追加">          
+        </figure>
+      </section><!-- /sec-cmn-01 -->
+
+
+    </article><!-- /contents-main -->
+    
+  
+  </div><!-- /contents -->
+  
+</div><!-- /wrapper -->
+
+<footer class="footer">
+  <div class="footer-in">
+    <p class="btn-cmn-pagetop"><a href="#" class="js-scroll">PageTop</a></p>
+    <div class="footer-utility">
+    	<ul class="footer-links">
+    	  <li><a href="#">テキスト</a></li>
+    	  <li><a href="#">テキスト</a></li>
+    	  <li><a href="#">テキスト</a></li>
+    	  <li><a href="#">テキスト</a></li>
+    	</ul>
+    </div><!-- /footer-utility -->
+    <p class="footer-copyright">Copyright &copy; example. All Rights Reserved.</p>
+  </div><!-- /footer-in -->
+</footer>
+</body>
+</html>

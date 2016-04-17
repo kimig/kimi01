@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "myFont";
+  src: url("fonts/lbpop.eot?") format('eot'),
+       url("fonts/lbpop.woff") format('woff'),
+       url("fonts/lbpop.ttf")  format('truetype'),
+}
+
+/*ttl-cmn-01*/
+.ttl-cmn-01 {
+  background-color: #fc8d87;
+  padding: 5px 10px 5px;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  border: 5px solid #999;
+  font-family: "myFont";
+}
+
+
+/*list-cmn-01*/
+.list-cmn-01 {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #eee;
+  font-size: 1rem;
+  color: #999;
+}
+  .list-cmn-01 dt {
+    padding: 10px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-top: 1px solid #999;
+    cursor: pointer;
+  }
+  .list-cmn-01 dt:last-of-type {
+    border-bottom: 1px solid #999;
+  }
+  .list-cmn-01 dd {
+    padding: 10px;
+    background-color: #fff;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+  }
+  .list-cmn-01 dd:not(:last-of-type) {
+    border-bottom: none;
+  }
+  /*btn-phot-change*/
+  .btn-phot-change {
+    padding: 5px 10px 5px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .btn-phot-change.blue {
+    background-color: #0062b2;
+    border :1px solid #00a3d9;
+  }
+  .btn-phot-change.red {
+    background-color: #F83434;
+    border :1px solid #E81818;
+  }
+  .btn-phot-change.green {
+    background-color: #33CC66;
+    border :1px solid #008000;
+  }
+  .btn-phot-change.orenge {
+    background-color: #FF3300;
+    border :1px solid #FF9933;
+  }
+
+    .btn-phot-change a {
+      text-decoration: none;
+      color: #fff;
+    }
+    .btn-phot-change a:hover {
+      text-decoration: none;
+    }
+/*list-cmn-02*/
+.list-cmn-02 {
+}
+  .list-cmn-02 a {
+    text-decoration: none;
+    color: #4cba7a;
+  }
+  .list-cmn-02 a:hover {
+    text-decoration: underline;
+  }
